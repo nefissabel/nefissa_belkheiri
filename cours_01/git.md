@@ -47,7 +47,9 @@ Après avoir dit au logiciel Git qu’elle dossier est un repository, il faut li
 
 - **git add**
 
-Cette commande permet de dire quel fichier nous souhaitons commits plus tard, il suffit de faire : “git add nom_du_fichier” (on peut vérifier par la suite grâce à git status, que le fichier apparaît en vert et que donc, il attend d’être commit).
+Cette commande permet de dire quel fichier nous souhaitons commits plus tard, il suffit de faire : “git add nom_du_fichier_ou_dossier” (on peut vérifier par la suite grâce à git status, que le fichier apparaît en vert et que donc, il attend d’être commit).
+
+**PETITE ASTUCE** : si l'on souhaite  add un dossier qui est vide, Git ne pourra pas le faire. Après avoir créer le dossiers (grâce a la commande mkdir), il faut : *touch nomdudossier/.gitignore* puis à partir de la, on peut le add normalement (*git add nomdudossier*).
 
 - **git commit**
 
