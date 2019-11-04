@@ -8,7 +8,7 @@ Le terminal est une version un peu moins intuitive qu’un explorateur fichier n
 
 C’est donc une version texte de l’explorateur de fichier « graphique ».
 	 - CLI = command line interface = terminal = version texte de l’explorateur.
-	 - GUI = graphical user interface = explorateur fichier = version comme on la connaît.
+	 - GUI = graphical user interface = explorateur fichier = version comme on la connaît. vv
 
 ## **Comment lancer le terminal ?**
 
